@@ -29,6 +29,7 @@ const Questions = () => {
             <ToastContainer />
             <Form onSubmit={handleSubmit}>
                 <Row>
+
                     <Col lg={4} xs={12}>
                         <Form.Group  >
                             <Form.Control type="text" placeholder="أدخل السؤال " className="m-3 w-100"
@@ -44,7 +45,7 @@ const Questions = () => {
                     </Col>
                     <Col lg={4} xs={12}>
                         <Button variant="primary" type="submit" className="m-3  w-100">
-                            ارسال 
+                            ارسال
                         </Button>
                     </Col>
                 </Row>
